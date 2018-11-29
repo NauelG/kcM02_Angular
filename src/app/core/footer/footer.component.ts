@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  autor: string;
+  empresa: string;
+  lugar: string;
+  fecha: Date;
+
   constructor() { }
 
   ngOnInit() {
+    this.autor = 'nauel G.';
+    this.empresa = 'Keep Coding';
+    this.lugar = 'Girona';
+    this.fecha = new Date();
   }
 
 }
