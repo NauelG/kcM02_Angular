@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'kcM02-Angular';
+  logo = '../assets/logo.svg';
 }
